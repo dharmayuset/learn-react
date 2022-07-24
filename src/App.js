@@ -4,10 +4,11 @@ function App() {
   return (
     <div>
     <h1> My Todos </h1>
-    <div>
+    <div className='card'>
       <h2>Title</h2>
-      <button></button>
-      Hello!!
+      <div>
+      <button>Delete</button>
+      </div>
     </div>
     </div>
   );
